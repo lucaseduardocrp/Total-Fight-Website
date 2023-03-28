@@ -474,27 +474,27 @@ header .contact-header p:hover::after{
 
 /*----------Footer Newslater Section----------*/
 
-footer .footer-container .news-container{
+.footer .footer-container .news-container{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 25px 180px;
+    padding: 13px 180px;
     background-color: var(--red-color);
 }
-footer .footer-container .news-container .news{
+.footer .footer-container .news-container .news{
     margin-right: 50px;
 }
-footer .footer-container .news-container .news h3{
-    color: var(--main-color);
+.footer .footer-container .news-container .news h3{
+    color: var(--text-color);
     font-size: var(--h3-font);
-    font-weight: 600;
+    font-weight: 900;
     letter-spacing: 1px;
 }
-footer .footer-container .news-container .news p{
+.footer .footer-container .news-container .news p{
     color: var(--main-color);
     font-weight: 600;
 }
-footer .footer-container .news-container input{
+.footer .footer-container .news-container input{
     width: 400px;
     height: 40px;
     border-radius: 8px;
@@ -505,7 +505,7 @@ footer .footer-container .news-container input{
     border: none;
     margin-right: 20px
 }
-footer .footer-container .news-container button{
+.footer .footer-container .news-container button{
     width: 130px;
     height: 40px;
     border-radius: 8px;
@@ -518,18 +518,80 @@ footer .footer-container .news-container button{
     margin-right: 60px;
     transition: all .45s ease;
 }
-footer .footer-container .news-container button:hover{
+.footer .footer-container .news-container button:hover{
     background: var(--second-color);
 }
-footer .footer-container .news-container .social-midia a{
+.footer .footer-container .news-container .social-midia a{
     color: var(--second-main-color);
     font-size: 39px;
     margin-right: 13px;
     transition: all .45s ease;
 }
-footer .footer-container .news-container .social-midia a:hover{
+.footer .footer-container .news-container .social-midia a:hover{
     color: var(--main-color)
 }
 
 /*----------Contact Footer Section----------*/
 
+.footer .central-atendimentos .contact-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px 150px 5px 150px;
+    line-height: 2;
+}
+.footer .central-atendimentos .contact-container .contact h4{
+    font-size: var(--h4-font);
+    font-weight: 800;
+}
+.footer .central-atendimentos .contact-container .contact ul li{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer .central-atendimentos .contact-container .contact ul li a{
+    color: var(--second-color);
+    transition: all .45s ease;
+}
+.footer .central-atendimentos .contact-container .contact ul li a:hover{
+    transform: translateX(10px);
+}
+
+.footer .central-atendimentos .contact-container .politicas li{
+    display: flex;
+    flex-direction: column;
+    line-height: 3;
+}
+.footer .central-atendimentos .contact-container .politicas li a{
+    position: relative;
+    width: 50%;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--second-color);
+    transition: all .45s ease;
+}
+.footer .central-atendimentos .contact-container .politicas li a:hover{
+    color: var(--red-color);
+}
+
+/*----------Final Footer Section----------*/
+
+.footer-final .formas-pg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.footer-final .formas-pg p img{
+    margin-right: 30px;
+}
+.footer-final .end{
+    display: block;
+    text-align: center;
+    padding: 30px;
+}
+.footer-final .end p{
+    font-size: 17px;
+    font-weight: 600;
+}
