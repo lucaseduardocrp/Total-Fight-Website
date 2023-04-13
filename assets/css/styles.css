@@ -28,6 +28,9 @@ section{
     width: 100%;
     height: 87vh;
 }
+body{
+    overflow-x: hidden;
+}
 .span-color{
     color: var(--suave-red);
 }
@@ -538,6 +541,7 @@ header .contact-header p:hover::after{
     grid-template-columns: repeat(4, 1fr);
     padding: 10px 150px 5px 150px;
     line-height: 2;
+    gap: 10rem;
 }
 .footer .central-atendimentos .contact-container .contact h4{
     font-size: var(--h4-font);
@@ -564,7 +568,7 @@ header .contact-header p:hover::after{
 }
 .footer .central-atendimentos .contact-container .politicas li a{
     position: relative;
-    width: 50%;
+    width: 100%;
     display: inline-block;
     font-size: 14px;
     font-weight: 500;
